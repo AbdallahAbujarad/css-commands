@@ -1,0 +1,51 @@
+h2{
+	color: yellow;
+	background-color: gray;
+}
+h1, body{/*to make common characteristics */
+	background-color:purple;
+	color: rgb(255, 0, 0);
+	color: rgba(0, 0, 0, 1.0);
+	background-color: #ff0000;
+	color: hsl(20, 5%, 50%);
+	color: hsla(0, 100%, 50%, 1.0);
+	background-image: url("");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-position: left bottom;
+	background-size: 300px 300px;
+	background-size: 100% 50%;
+	background-attachment: scroll;
+	background-attachment: fixed;
+	/*you can put all background properties in the same line but with out size*/
+}
+h3{
+	color: blue;
+	background: aqua;
+	border-style: solid;
+	border-style: dotted;
+	border-style: double;
+	border-style: dashed;
+	border-top-style: dashed;
+	border-style: dashed/*top*/ dotted/*right*/ double/*bottom*/ dashed/*left*/;
+	/*if any side have no border style then it takes the the style of the opposite*/
+	/*any charecterstic execute the same arrangement*/
+	border-width: 5px;
+	border-width: thin;
+	border-width: thick;
+	border-width: medium;
+	border-color: black;
+	border: solid 4px black;
+	border-radius: 7px;/*to make circle edges*/
+	margin-top: 100px;/*margin is the distance between top(or any side) and the element*/
+	margin: 100px;/*all sides*/
+	margin: auto;/*in the mid of the page in horizontal way*/
+	padding: 5px;/*the distance between the text and the border*/
+	height: 400px;/*height of the border of the element*/
+	width: 400px;/*width of the border of the element*/
+	box-sizing: border-box;/*to save dimentions from height and width by skipping margin and padding inputs*/
+
+
+}
