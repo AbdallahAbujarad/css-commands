@@ -1,0 +1,20 @@
+p{
+	background: aqua;
+	color: black;
+	border: black 4px dashed;
+	margin: 100px;
+	padding: 10px;
+	width: 500px;
+	box-sizing: border-box;
+
+	text-align: lift;/*alignment*//*left right center justify etc..*/
+	text-transform: uppercase;/*case of letters*/
+	text-decoration: underline;/*a line added to the text*//*overline underline line-through*/
+	letter-spacing: -1px;/*space between letters and it can be negative number*/
+	word-spacing: 5px;/*space between words and it can be negative number*/
+	text-indent: 20px;/*space before starting paragraph*/
+	text-shadow: 1px/*distance to right*/ 2px/*distance to bottom*/ red /*color*/;/*make a shadow or the text*/
+	font-size:20px ;/*size*/
+	font-style: italic;
+	font-weight: bold;
+}	
