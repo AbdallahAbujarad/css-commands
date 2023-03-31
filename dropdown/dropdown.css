@@ -1,0 +1,15 @@
+div#x{
+	background-color:gray ;
+	display: inline-block;
+	padding: 2px;
+	/*display: block;*//*show over the screen*/
+}
+div#y{
+	background-color: lightgray;
+	display: none;
+	padding: 20px;
+	/*position: absolute //absolute for make position depend to the father block not the whole body*/
+}
+div#x:hover #y{/*when touch x then do to y*/
+	display: block;
+}
