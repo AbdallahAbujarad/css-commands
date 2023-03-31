@@ -1,0 +1,25 @@
+#Abdallah{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse ;/*to fix spaces between fields*/
+}
+#Abdallah tr{/*the tr just in Abdallah table*/
+
+}
+#Abdallah tr:hover{
+	background-color: #22f2f2;
+}
+#Abdallah tr:nth-child(even){/*for even rows 2..4..6...*/
+background-color: #aab2b2;
+}
+#Abdallah th,#Abdallah td{
+	padding: 8px;
+	border: solid 2px black;
+}
+#Abdallah th{
+	color: white;
+	background-color: black;/*#ddd = #dddddd as the 6 letters are the same*/
+}
+#Abdallah th:nth-child(2),#Abdallah th:nth-child(1){
+	border-right-color: white;
+}
