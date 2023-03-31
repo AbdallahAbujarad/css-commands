@@ -1,0 +1,16 @@
+p{
+	font-size: 40px;
+}
+p::first-letter{/*for first letter*/
+	font-size: 100px;
+	font-weight: bold;
+	color: red;
+}
+p::first-line{/*for first line*/
+	font-style: italic;
+	color: blue;
+}
+::selection{/*when u select a text*/
+	background-color: black;
+	color: white;
+}
