@@ -1,0 +1,15 @@
+p{/*for all paragraphs*/
+	color: red;
+}
+div p{/*for all p inside div*/
+	background-color: yellow ;
+}
+div>p{/*for all p dirct son of div*/
+	font-style: italic;
+}
+div~p{/*for all p thats not extention of a div ,after it and in the same level*/
+	font-weight: bold;
+}
+div+p{/*for the one paragraph that just after the div block and in the same level*/
+	text-decoration: line-through;
+}
