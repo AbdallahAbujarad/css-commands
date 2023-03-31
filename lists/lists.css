@@ -1,0 +1,12 @@
+ul{/*for the whole list with starting dots*/
+	background-color: aqua;/*try to make this note*/
+	list-style-type: square;/*to change style of starting marks(this from dots to squares)*/
+
+}
+li{/*for the elemnts of the list just for the text without dots*/
+	background-color: green;/*try to make this note*/
+} 
+/*to put li properties for on li element use id for eac one*/
+#css{/*css is an id that put in a li in html document*/
+	background-color: white;/*try to make this note*/
+}
