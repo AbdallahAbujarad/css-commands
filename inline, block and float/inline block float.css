@@ -1,0 +1,14 @@
+/*to convert a block to inline*/
+li{
+	display: inline;
+}
+
+/*to convert an inline to block*/
+span{
+	display: block;
+}
+
+/*float to control the place of an element(usually image)*/
+img{
+	float: right;
+}
