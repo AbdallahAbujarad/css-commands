@@ -1,0 +1,26 @@
+input[type=text],select{
+	width: 97%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	border-radius:4px ;
+}
+input[type=submit]{
+	width: 100%;
+	background-color:#4caf50;
+	color: white;
+	cursor: pointer;/*shape of mouse when touch*/
+	padding: 14px 20px;
+	margin: 8px 0px;
+	border: none;
+	border-radius:4px ;
+}
+input[type=submit]:hover{
+	background-color:#4caf30;
+}
+div{
+	border-radius: 5px;
+	background-color: #9f92f2;
+	padding:20px ;
+}
